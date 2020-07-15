@@ -28,7 +28,7 @@ int merge(int a[],int l,int m,int r)
 	{
 		if(l1[i]>r1[j])
 		{	
-			inv+=m-i+1;
+			inv+=n1-i;
 			a[k]=r1[j];
 			k++;
 			j++;
